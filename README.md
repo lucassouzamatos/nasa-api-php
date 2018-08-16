@@ -26,12 +26,14 @@ $request = new Request($parameter);
     $request->getResponse() // Retorna a resposta original da API.
 
 A partir de Request, também é possível ter dados específicos como:
+    
     $request->getCloudScore();
     $request->getDate();
     $request->getServiceVersion();
     $request->getImageUrl();
 
 Retornando o resource:
+    
     $request->getResource()
 
 Retorna uma instancia de Resource, que possui as respostas: dataSet e planet.
