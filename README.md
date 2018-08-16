@@ -20,7 +20,7 @@ Os parâmetros "Lat", "Lon" e "ApiKey" são obrigatórios, caso não preenchidos
 
 Para iniciar a requisição, basta instanciar Request com o Parameter como argumento do construtor:
 
-$request = new Request($this->parameterComplete);
+$request = new Request($parameter);
 
 #### Obtendo a resposta da API:
 > $request->getResponse() // Retorna a resposta original da API.
