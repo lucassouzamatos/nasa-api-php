@@ -22,7 +22,7 @@ Para iniciar a requisição, basta instanciar Request com o Parameter como argum
 
 $request = new Request($this->parameterComplete);
 
-####### Obtendo a resposta da API:
+#### Obtendo a resposta da API:
 > $request->getResponse() // Retorna a resposta original da API.
 
 A partir de Request, também é possível ter dados específicos como:
