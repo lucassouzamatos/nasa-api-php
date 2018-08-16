@@ -2,7 +2,13 @@
 Pacote php para consumir a API de imagens da Nasa.
 
 ## Instalação
+Através do git:
+
 > git clone git@github.com:iLuc1/nasa-api-php.git
+
+Através do composer:
+
+> composer require souzalc/nasa-api-php
 
 ## Uso
 
