@@ -2,7 +2,7 @@
 Pacote php para consumir a API de imagens da Nasa.
 
 ## Instalação
-> git@github.com:iLuc1/nasa-api-php.git
+> git clone git@github.com:iLuc1/nasa-api-php.git
 
 ## Uso
 
@@ -23,7 +23,7 @@ Para iniciar a requisição, basta instanciar Request com o Parameter como argum
 $request = new Request($parameter);
 
 #### Obtendo a resposta da API:
-> $request->getResponse() // Retorna a resposta original da API.
+    $request->getResponse() // Retorna a resposta original da API.
 
 A partir de Request, também é possível ter dados específicos como:
     $request->getCloudScore();
@@ -32,7 +32,7 @@ A partir de Request, também é possível ter dados específicos como:
     $request->getImageUrl();
 
 Retornando o resource:
-    > $request->getResource()
+    $request->getResource()
 
 Retorna uma instancia de Resource, que possui as respostas: dataSet e planet.
 
