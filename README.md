@@ -1,5 +1,6 @@
 # Nasa API
 Pacote php para consumir a API de imagens da Nasa.
+![GitHub last commit](https://img.shields.io/github/last-commit/lucassouzamatos/nasa-api-php.svg)
 
 ## Instalação
 Através do git:
